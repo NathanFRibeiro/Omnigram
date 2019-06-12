@@ -6,7 +6,6 @@ module.exports = {
 
     },
 
-    async store(req,res){
-        
+    async store(req,res){   
     }
 };
