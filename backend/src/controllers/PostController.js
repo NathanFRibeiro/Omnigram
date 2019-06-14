@@ -6,6 +6,10 @@ module.exports = {
 
     },
 
-    async store(req,res){   
+    async store(req,res){
+        
+        console.log(req.file);
+        
+        res.json({'status': 'ok'});
     }
 };
